@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-image: url(../img/Mage.jpg); /* Reemplaza 'fondo.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: #159680b3;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size:30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+input:hover{
+    background-color: gray;
+    
+}
+
+button {
+    background-color: black;
+    color:white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    border-radius: 13px;
+    padding: 15px;
+    background-color: white;
+    color: black;
+}
+
+.input-container {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    font-size: 25px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+i{
+    font-size: 25px;
+}
+
+a{
+    width: 500px;
+    background-color: red;
+}

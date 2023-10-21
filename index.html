@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>Login-User</title>
+</head>
+
+<body> <br>
+    <div class="container">
+        <h2>REGISTRO USUARIO</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="contrasena">Contraseña:</label>
+            <div class="input-container">
+                <input type="password" id="contrasena" name="contrasena" required>
+                <span id="mostrar-contrasena" class="icon" onclick="mostrarOcultarContrasena()">👁</span>
+            </div>
+
+            <button type="submit">Registrarse</button>
+
+        </form>
+    </div>
+</body>
+
+<body> <br><br />
+    <div class="container">
+        <h2>PAGINAS WEB</h2> <br>
+        <form>
+            <button type="button" onclick="window.open('https:/github.com/IbarraWilsonA', '_blank')">
+                <i class="fab fa-github"></i>
+            </button>
+
+            <button type="button" onclick="window.open('https:/facebook.com', '_blank')">
+                <i class="fab fa-facebook"></i>
+            </button>
+
+            <button type="button" onclick="window.open('https:/www.instagram.com/tucuenta/', '_blank')">
+                <i class="fab fa-instagram"></i>
+            </button>
+
+            <button class="button" onclick="window.open('https:/tiktok.com/l.ibarra_', '_blank')">
+                <i class="fab fa-tiktok"></i>
+            </button>
+
+            <button class="button" onclick="window.open('https:/www.youtube.com/channel/UCctpLXcSubpTlw7DA1iyXiw', '_blank')">
+                <i class="fab fa-youtube"></i>
+            </button>
+
+            <button type="button" onclick="window.open('https:/api.whatsapp.com/send?phone=59167612301', '_blank')">
+                <ba><i class="fab fa-whatsapp"></i></ba>
+            </button>
+
+            <!--<button type="button" onclick="window.open('https:/web.telegram.org/a/', '_blank')">
+                <i class="fab fa-telegram"></i>
+            </button> -->
+
+        </form>
+    </div>
+</body>
+
+</html>
